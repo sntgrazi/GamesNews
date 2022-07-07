@@ -8,6 +8,10 @@ body{
     background-color: #46228C;
 }
 
+body * {
+    box-sizing: border-box;
+}
+
 .topo{
     display: flex;
     flex-direction: row;
@@ -79,4 +83,43 @@ main{
 
 .direita{
     width: 500px;
+}
+
+
+@media only screen and (max-width: 950px){
+    .topo img{
+        margin: 0;
+        width: 30%;
+        height: 30%;
+
+    }
+
+    .topo h1{
+        font-size: 1.2em;
+    }
+    
+    .esquerda{
+        width: 90%;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .esquerda h2{
+        font-size: 30px;
+    }
+
+    .formulario input{
+        width: 50%;
+    }
+
+    .direita{
+        width: 85%
+    }
+
+    .direita img{
+        width: 80%;
+    }
 }
