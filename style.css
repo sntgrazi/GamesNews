@@ -124,6 +124,7 @@ main{
     }
 
     .formulario button{
+        margin: 0;
         width: 30%;
     }
 
