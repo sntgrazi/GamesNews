@@ -57,17 +57,25 @@ main{
 
 .formulario input{
     width: 500px;
-    height: 25px;
+    height: 36px;
     font-size: 20px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 .formulario button{
-    margin-left: -4px;
-    height: 32px;
-    background-color: #343434;
-    border: none;
+    width: 130px;
+    margin-top: -2px;
+    height: 35px;
     cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+.formulario button:hover{
+    background-color: #333131;
+    color: #17FF2F;
 }
 
 .formulario img{
