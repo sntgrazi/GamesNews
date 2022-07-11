@@ -120,7 +120,11 @@ main{
     }
 
     .formulario input{
-        width: 50%;
+        width: 60%;
+    }
+
+    .formulario button{
+        width: 30%;
     }
 
     .direita{
