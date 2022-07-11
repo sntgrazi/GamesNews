@@ -78,6 +78,7 @@ main{
 .formulario button:hover{
     background-color: #333131;
     color: #17FF2F;
+    transition-duration: 0.5s;
 }
 
 .formulario img{
