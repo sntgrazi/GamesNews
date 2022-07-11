@@ -84,6 +84,10 @@ main{
     color: #ffffff;
 }
 
+.formulario a{
+    text-decoration: none;
+}
+
 .formulario p {
     margin-top: 60px;
     color: #17FF2F;
@@ -119,12 +123,18 @@ main{
         font-size: 30px;
     }
 
+    .formulario, .form {
+        display: flex;
+        flex-direction: column;
+    }
+
     .formulario input{
-        width: 60%;
+        width: 80%;
     }
 
     .formulario button{
-        width: 30%;
+        margin-top: 15px;
+        width: 40%
     }
 
     .direita{
