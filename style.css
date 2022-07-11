@@ -71,6 +71,7 @@ main{
     border-radius: 10px;
     font-size: 20px;
     border: none;
+    background-color: #ffffff;
 }
 
 .formulario button:hover{
@@ -125,7 +126,7 @@ main{
 
     .formulario button{
         margin: 0;
-        width: 30%;
+        width: 20%;
     }
 
     .direita{
