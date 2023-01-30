@@ -4,5 +4,5 @@ Uma Newsletter criada para treinar Html e Css.
 
 # Tecnologias
 Tecnologias usadas para a criação do projeto:
-<br> - HTML
-<br> - CSS
+- HTML
+- CSS
